@@ -13,6 +13,11 @@ export class AppComponent implements OnInit{
   constructor(private http: HttpClient) {}
 
   ngOnInit() {
+    let s = document.createElement('script');
+    s.type = `module`;
+    s.src = `assets/widget1/elements/ae-widget1.js`;
+
+    document.body.appendChild(s);
     const elm = document.createElement('ae-widget1');
 
     const content = document.getElementById('content');

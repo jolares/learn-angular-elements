@@ -35,7 +35,7 @@
       "prefix": "ae",
       "architect": {
         "build": {
-          "builder": "@angular-devkit/build-angular:browser",
+          "builder": "ngx-build-plus:browser",
           "options": {
             "outputPath": "dist/ae-app",
             "index": "src/index.html",
@@ -48,7 +48,6 @@
               "src/assets"
             ],
             "styles": [
-              
               "src/styles.scss"
             ],
             "scripts": [
