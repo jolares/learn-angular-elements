@@ -5,7 +5,7 @@ const concat = require('concat');
   const files = [
     // // './dist/ae-app/common.js',
     './dist/ae-app/runtime-es2015.js',
-    './dist/ae-app/polyfills-es2015.js',
+    // './dist/ae-app/polyfills-es2015.js',
     './dist/ae-app/scripts.js',
     './dist/ae-app/main-es2015.js',
     './dist/ae-app/styles.css'
