@@ -5,12 +5,9 @@ const concat = require('concat');
   const files = [
     // './dist/ae-app/common.js',
     './dist/ae-app/runtime-es5.js',
-    './dist/ae-app/runtime-es2015.js',
     './dist/ae-app/polyfills-es5.js',
-    './dist/ae-app/polyfills-es2015.js',
     './dist/ae-app/scripts.js',
     './dist/ae-app/main-es5.js',
-    './dist/ae-app/main-es2015.js'
   ]
   await fs.ensureDir('elements')
   await concat(files, 'elements/ae-widget1.js');

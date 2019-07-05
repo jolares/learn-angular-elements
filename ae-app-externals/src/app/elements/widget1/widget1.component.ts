@@ -8,7 +8,7 @@ import { Component, OnInit, ViewEncapsulation } from '@angular/core';
     </p>
   `,
   styleUrls: ['./widget1.component.scss'],
-  // encapsulation: ViewEncapsulation.None
+  encapsulation: ViewEncapsulation.None
 })
 export class Widget1Component implements OnInit {
 

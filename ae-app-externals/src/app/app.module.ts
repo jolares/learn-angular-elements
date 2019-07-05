@@ -1,19 +1,19 @@
 import { BrowserModule } from '@angular/platform-browser';
-import { NgModule, Injector } from '@angular/core';
+import { NgModule, Injector, CUSTOM_ELEMENTS_SCHEMA } from '@angular/core';
 import { createCustomElement } from '@angular/elements';
 
-import { AppComponent } from './app.component';
 import { Widget1Component } from './elements/widget1/widget1.component';
 
 @NgModule({
   declarations: [
-    AppComponent,
     Widget1Component
   ],
   imports: [
     BrowserModule
   ],
   providers: [],
+  bootstrap: [],
+  schemas: [ CUSTOM_ELEMENTS_SCHEMA ],
   entryComponents: [Widget1Component]
 })
 export class AppModule {

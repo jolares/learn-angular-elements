@@ -4,6 +4,7 @@
   "newProjectRoot": "projects",
   "projects": {
     "ae-app": {
+      "root": "",
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {
@@ -30,7 +31,6 @@
           "skipTests": true
         }
       },
-      "root": "",
       "sourceRoot": "src",
       "prefix": "ae",
       "architect": {
