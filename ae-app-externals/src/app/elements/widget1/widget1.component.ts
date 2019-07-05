@@ -3,7 +3,7 @@ import { Component, OnInit, ViewEncapsulation } from '@angular/core';
 @Component({
   selector: 'ae-widget1',
   template: `
-    <p>
+    <p class='test'>
       widget1 works!
     </p>
   `,
