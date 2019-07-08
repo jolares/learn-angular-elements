@@ -12,6 +12,31 @@
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 </head>
 <body>
+    <script src="./assets/native-shim.js"></script>
+
+    <!-- Polyfills for Browsers not supporting
+         Custom Elements. See: @webcomponents/custom-elements
+    -->
+    <script src="./assets/custom-elements.min.js"></script>
+
+    <!-- Zone.js -->
+    <!-- 
+      Consider excluding zone.js when creating
+      custom Elements by using the noop zone.
+    -->
+    <script src="./assets/zone.js"></script>
+    
+    <!-- Rx -->
+    <script src="./assets/rxjs.umd.js"></script>
+
+    <!-- Angular Packages -->
+    <script src="./assets/core.umd.js"></script>
+    <script src="./assets/common.umd.js"></script>
+    <script src="./assets/platform-browser.umd.js"></script>
+    <script src="./assets/elements.umd.js"></script>
+
+    <!-- Custom Element -->
+    <script src="./assets/custom-element.bundle.js"></script>
   <app-root></app-root>
   <!-- <ae-widget1></ae-widget1> -->
 </body>

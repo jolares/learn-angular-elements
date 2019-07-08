@@ -15,7 +15,7 @@ export class AppComponent implements OnInit{
   ngOnInit() {
     let s = document.createElement('script');
     s.type = `module`;
-    s.src = `assets/widget1/elements/ae-widget1.js`;
+    s.src = `http://localhost:3000/widgets/param`;
 
     document.body.appendChild(s);
     const elm = document.createElement('ae-widget1');
