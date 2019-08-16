@@ -12,6 +12,6 @@ export class WidgetsController {
   @Get(':param')
   async getWidget(@Param() param: any, @Query() queryParams: any, @Res() res: any): Promise<string> {
     console.log('requested')
-    return res.sendFile('ae-widget1.js', { root: '../ae-app-externals/elements/' });
+    return res.sendFile('ae-app.js', { root: '../ae-app-externals/elements/es2015' });
   }
 }
