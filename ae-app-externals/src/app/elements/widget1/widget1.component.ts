@@ -4,6 +4,7 @@ export interface Food {
   value: string;
   viewValue: string;
 }
+
 @Component({
   selector: 'ae-widget1',
   template: `
